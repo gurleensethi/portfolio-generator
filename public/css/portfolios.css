@@ -1,0 +1,12 @@
+body {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.portfolios {
+}
+
+.portfolios--item {
+  font-size: 24px;
+  font-weight: bold;
+}

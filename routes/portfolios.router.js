@@ -11,8 +11,9 @@ portfoliosRouter
       path.join(__dirname, "..", "templates", "portfolios")
     );
 
-    res.render("portfolios/portfolios", {
-      portfolios: files.filter((file) => file !== "portfolios.handlebars"),
+    res.render("portfolios", {
+      portfolios: files.map((file) => file.split("-").join(" ").toUpperCase()),
+      styles: ["portfolios.css"],
     });
   })
   .get("/render/:templateId", async (req, res) => {
