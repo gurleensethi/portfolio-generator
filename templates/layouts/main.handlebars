@@ -6,9 +6,10 @@
   <title>Document</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link rel="stylesheet" href="/css/common.css">
   {{#if this.styles}}
   {{#each this.styles}}
-  <link rel="stylesheet" href="/css/{{this}}">
+  <link rel="stylesheet" href="/css/{{this}}.css">
   {{/each}}
   {{/if}}
   {{#debug this}}

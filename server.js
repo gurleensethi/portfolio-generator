@@ -1,6 +1,7 @@
 const express = require("express");
 const path = require("path");
-const templatesApi = require("./routes/portfolios.router");
+const templateRoutes = require("./routes/portfolios.router");
+const homeRoutes = require("./routes/home.router");
 const exphbs = require("express-handlebars");
 
 const PORT = process.env.PORT || 5000;
@@ -23,8 +24,9 @@ app.engine(
   })
 );
 
-// Setup api's
-app.use("/portfolios", templatesApi);
+// Setup routes
+app.use(homeRoutes);
+app.use("/portfolios", templateRoutes);
 
 app.listen(PORT, (err) => {
   if (err) return console.error(err);

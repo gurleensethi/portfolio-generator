@@ -13,7 +13,7 @@ portfoliosRouter
 
     res.render("portfolios", {
       portfolios: files.map((file) => file.split("-").join(" ").toUpperCase()),
-      styles: ["portfolios.css"],
+      styles: ["portfolios"],
     });
   })
   .get("/render/:templateId", async (req, res) => {
