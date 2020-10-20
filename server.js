@@ -12,17 +12,7 @@ app.use(express.static(path.join(__dirname, "templates")));
 app.use(express.static(path.join(__dirname, "public")));
 app.set("views", path.join(__dirname, "templates"));
 app.set("view engine", "handlebars");
-app.engine(
-  "handlebars",
-  exphbs({
-    helpers: {
-      debug(data) {
-        console.log(data);
-        return "";
-      },
-    },
-  })
-);
+app.engine("handlebars", exphbs());
 
 // Setup routes
 app.use(homeRoutes);
