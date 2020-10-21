@@ -46,3 +46,8 @@ body {
 .links__item {
   margin: 8px;
 }
+
+.links__image {
+  height: 24px;
+  filter: grayscale(1);
+}

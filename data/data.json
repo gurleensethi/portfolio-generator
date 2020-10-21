@@ -5,19 +5,22 @@
     {
       "name": "Github",
       "url": "https://www.github.com/gurleensethi",
-      "image": ""
+      "image": "https://i.ibb.co/fvDXkBn/Git-Hub-Mark-120px-plus.png"
     },
     {
       "name": "LinkedIn",
-      "url": "https://www.linkedin.com/in/gurleensethi"
+      "url": "https://www.linkedin.com/in/gurleensethi",
+      "image": "https://i.ibb.co/qnjkSq9/linkedin-logo.png"
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/@g_sethi"
+      "url": "https://medium.com/@g_sethi",
+      "image": "https://i.imgur.com/OPkiswZ.png"
     },
     {
       "name": "Blog",
-      "url": "http://thetechnocafe.com"
+      "url": "http://thetechnocafe.com",
+      "image": "https://i.ibb.co/YQnGdwL/blog-icon.png"
     }
   ]
 }
