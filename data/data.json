@@ -1,3 +1,23 @@
 {
-  "name": "Gurleen Sethi"
+  "name": "Gurleen Sethi",
+  "email": "contactgurleensethi@gmail.com",
+  "links": [
+    {
+      "name": "Github",
+      "url": "https://www.github.com/gurleensethi",
+      "image": ""
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/gurleensethi"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@g_sethi"
+    },
+    {
+      "name": "Blog",
+      "url": "http://thetechnocafe.com"
+    }
+  ]
 }
