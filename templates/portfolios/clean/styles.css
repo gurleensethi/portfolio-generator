@@ -10,10 +10,45 @@ body {
 }
 
 .navigation {
+  position: absolute;
   display: flex;
+  flex-direction: column;
+  right: 0;
+  left: 0;
+  padding: 8px;
 }
 
-.navigation__item {
+.navigation__toggle {
+  align-self: flex-end;
+  position: relative;
+  display: inline-block;
+  padding: 8px;
+  border: 1.5px solid grey;
+  border-radius: 50%;
+  opacity: 0.7;
+  background-color: white;
+}
+
+.navigation__toggle__image {
+  height: 16px;
+}
+
+.navigation__menu {
+  margin-top: 4px;
+  min-width: 50%;
+  display: flex;
+  align-self: flex-end;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 2px 2px 2px rgb(201, 201, 201), 0px 0px 2px rgb(201, 201, 201);
+  border-radius: 6px;
+}
+
+.navigation__menu--hidden {
+  display: none;
+}
+
+.navigation__menu__item {
   padding: 12px;
 }
 
@@ -41,6 +76,7 @@ body {
 .info__tagline {
   font-size: 18px;
   font-weight: lighter;
+  flex: 1;
 }
 
 .links__item {
