@@ -22,5 +22,57 @@
       "url": "http://thetechnocafe.com",
       "image": "https://i.ibb.co/YQnGdwL/blog-icon.png"
     }
+  ],
+  "skills": [
+    {
+      "name": "JavaScript",
+      "imageUrl": "https://i.imgur.com/io41RDq.png",
+      "percentage": 90
+    },
+    {
+      "name": "React",
+      "imageUrl": "https://i.imgur.com/vAlbpab.png",
+      "percentage": 90
+    },
+    {
+      "name": "Node.js",
+      "imageUrl": "https://i.imgur.com/TzKJfJf.png",
+      "percentage": 90
+    },
+    {
+      "name": "Typescript",
+      "imageUrl": "https://i.imgur.com/vGnBonE.png",
+      "percentage": 90
+    },
+    {
+      "name": "SQL",
+      "imageUrl": "https://i.imgur.com/YPpdKpA.png",
+      "percentage": 90
+    },
+    {
+      "name": "HTML",
+      "imageUrl": "https://www.w3.org/html/logo/downloads/HTML5_Badge_256.png",
+      "percentage": 90
+    },
+    {
+      "name": "CSS",
+      "imageUrl": "https://mpng.subpng.com/20180816/rcw/kisspng-cascading-style-sheets-logo-clip-art-css3-html-5b7617f67bd3d6.3499284915344660385072.jpg",
+      "percentage": 90
+    },
+    {
+      "name": "Docker",
+      "imageUrl": "https://i.imgur.com/sRIruFn.png",
+      "percentage": 90
+    },
+    {
+      "name": "Dart",
+      "imageUrl": "https://i.imgur.com/GIzju4C.png",
+      "percentage": 90
+    },
+    {
+      "name": "Flutter",
+      "imageUrl": "https://i.imgur.com/sGTXpa8.png",
+      "percentage": 90
+    }
   ]
 }

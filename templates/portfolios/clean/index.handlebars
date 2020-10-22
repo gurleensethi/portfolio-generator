@@ -19,9 +19,23 @@
     <div class="info__tagline">
       Software Engineer, Full-Stack Developer.
     </div>
-    <div class="links">
-      {{#each personal.links}}
-      <a class="links__item" href="{{this.url}}"><img class="links__image" src="{{this.image}}" /></a>
+    <div>
+      <a class="email" href="mailto:{{personal.email}}">{{personal.email}}</a>
+      <div class="links">
+        {{#each personal.links}}
+        <a class="links__item" href="{{this.url}}"><img class="links__image" src="{{this.image}}" /></a>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="section__heading">Skills</div>
+    <div class="skills">
+      {{#each personal.skills}}
+      <div class="skills__item">
+        <img class="skills__item__logo" src="{{this.imageUrl}}">
+        <div class="skills__item__name">{{this.name}}</div>
+      </div>
       {{/each}}
     </div>
   </div>
