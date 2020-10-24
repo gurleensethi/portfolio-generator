@@ -170,6 +170,29 @@ body {
 }
 
 @media only screen and (min-width: 1024px) {
+  .navigation {
+    padding: 0;
+    position: relative;
+    display: flex;
+  }
+
+  .navigation__toggle {
+    display: none;
+  }
+
+  .navigation__menu {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0px;
+    min-width: 0%;
+    box-shadow: none;
+  }
+
+  .navigation__menu__item {
+    padding: 0 24px;
+  }
+
   .container {
     padding: 80px;
   }
