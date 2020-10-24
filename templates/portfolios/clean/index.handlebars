@@ -1,33 +1,37 @@
 <div class="container">
-  <nav class="navigation">
-    <button class="navigation__toggle" id="navigationToggle">
-      <img class="navigation__toggle__image" src="https://i.imgur.com/0sRh9hT.png" />
-    </button>
-    <div class="navigation__menu navigation__menu--hidden" id="navigationMenu">
-      <div class="navigation__menu__item">Home</div>
-      <div class="navigation__menu__item">Experience</div>
-      <div class="navigation__menu__item">Education</div>
-      <div class="navigation__menu__item">Skills</div>
+  <main class="main">
+    <nav class="navigation">
+      <button class="navigation__toggle" id="navigationToggle">
+        <img class="navigation__toggle__image" src="https://i.imgur.com/0sRh9hT.png" />
+      </button>
+      <div class="navigation__menu navigation__menu--hidden" id="navigationMenu">
+        <div class="navigation__menu__item">Home</div>
+        <div class="navigation__menu__item">Experience</div>
+        <div class="navigation__menu__item">Education</div>
+        <div class="navigation__menu__item">Skills</div>
+      </div>
+    </nav>
+    <div class="info">
+      <img class="info__image"
+        src="https://www.vippng.com/png/detail/109-1091107_developer-illustration-working-on-laptop.png" />
+      <div>
+        <div class="info__title">
+          I'm <span class="info__title__name">{{ personal.name }}</span>
+        </div>
+        <div class="info__tagline">
+          Software Engineer, Full-Stack Developer.
+        </div>
+      </div>
     </div>
-  </nav>
-  <div class="info">
-    <img class="info__image"
-      src="https://www.vippng.com/png/detail/109-1091107_developer-illustration-working-on-laptop.png" />
-    <div class="info__title">
-      I'm <span class="info__title__name">{{ personal.name }}</span>
-    </div>
-    <div class="info__tagline">
-      Software Engineer, Full-Stack Developer.
-    </div>
-    <div>
-      <a class="email" href="mailto:{{personal.email}}">{{personal.email}}</a>
-      <div class="links">
+    <div class="main__contact">
+      <a class="main__contact__email" href="mailto:{{personal.email}}">{{personal.email}}</a>
+      <div class="main__contact__links">
         {{#each personal.links}}
         <a class="links__item" href="{{this.url}}"><img class="links__image" src="{{this.image}}" /></a>
         {{/each}}
       </div>
     </div>
-  </div>
+  </main>
   <div class="section">
     <div class="section__heading">Skills</div>
     <div class="skills">
