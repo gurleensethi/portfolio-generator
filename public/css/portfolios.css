@@ -6,7 +6,18 @@ body {
 .portfolios {
 }
 
-.portfolios--item {
+.portfolios__item {
   font-size: 24px;
   font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.portfolios__item__name {
+  flex: 1;
+  font-size: 28px;
+}
+
+.portfolios__item__link {
+  margin-right: 16px;
 }

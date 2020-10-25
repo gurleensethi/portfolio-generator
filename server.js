@@ -4,6 +4,8 @@ const templateRoutes = require("./routes/portfolios.router");
 const homeRoutes = require("./routes/home.router");
 const exphbs = require("express-handlebars");
 
+global.appRoot = path.resolve(__dirname);
+
 const PORT = process.env.PORT || 5000;
 
 const app = express();
@@ -17,6 +19,10 @@ app.engine("handlebars", exphbs());
 // Setup routes
 app.use(homeRoutes);
 app.use("/portfolios", templateRoutes);
+app.use((err, req, res, next) => {
+  console.log(err);
+  throw err;
+});
 
 app.listen(PORT, (err) => {
   if (err) return console.error(err);

@@ -1,6 +1,12 @@
 <h1>Portfolios</h1>
 <div class="portfolios collection">
   {{#each portfolios}}
-  <a class="portfolios--item collection-item" href="render/{{this}}">{{this}}</a>
+  <div class="portfolios__item collection-item">
+    <div class="portfolios__item__name">{{this}}</div>
+    <a class="btn portfolios__item__link" href="render/{{this}}">
+      View
+    </a>
+    <a class="btn portfolios__item__download" href="generate/{{this}}">Download</a>
+  </div>
   {{/each}}
 </div>
