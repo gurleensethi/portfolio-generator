@@ -74,5 +74,21 @@
       "imageUrl": "https://i.imgur.com/sGTXpa8.png",
       "percentage": 90
     }
+  ],
+  "experience": [
+    {
+      "name": "Nobbas Technologies",
+      "title": "Flutter Developer",
+      "from": "Jan 2019",
+      "to": "Mar 2020",
+      "description": "Worked as mobile application developer developing applications with Flutter."
+    },
+    {
+      "name": "Ted Consulting",
+      "title": "System Analyst (Android)",
+      "from": "Jun 2018",
+      "to": "Nov 2018",
+      "description": "Worked as mobile application developer responsible for migrating a native mobile application to Flutter."
+    }
   ]
 }

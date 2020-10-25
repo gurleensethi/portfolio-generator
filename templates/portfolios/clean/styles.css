@@ -115,6 +115,7 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
+  margin-bottom: 40px;
 }
 
 .section__heading {
@@ -154,6 +155,33 @@ body {
   font-weight: lighter;
 }
 
+.experience {
+}
+
+.experience__item {
+  margin-bottom: 32px;
+}
+
+.experience__item__title {
+  margin-bottom: 4px;
+  font-size: 22px;
+}
+
+.experience__item__name {
+  margin-bottom: 4px;
+  font-size: 18px;
+}
+
+.experience__item__date {
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.experience__item__description {
+  font-size: 18px;
+  color: #7c7c7c;
+}
+
 @media only screen and (min-width: 600px) {
   .container {
     padding: 48px;
@@ -173,6 +201,30 @@ body {
 
   .skills__item__logo {
     height: 48px;
+  }
+
+  .experience__item {
+    margin-bottom: 32px;
+  }
+
+  .experience__item__title {
+    margin-bottom: 4px;
+    font-size: 24px;
+  }
+
+  .experience__item__name {
+    margin-bottom: 4px;
+    font-size: 20px;
+  }
+
+  .experience__item__date {
+    margin-bottom: 8px;
+    font-size: 20px;
+  }
+
+  .experience__item__description {
+    font-size: 18px;
+    color: #7c7c7c;
   }
 }
 
@@ -268,5 +320,6 @@ body {
 
   .skills__item__logo {
     height: 48px;
+    margin-right: 24px;
   }
 }

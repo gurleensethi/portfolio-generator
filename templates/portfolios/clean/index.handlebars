@@ -43,3 +43,17 @@
       {{/each}}
     </div>
   </div>
+  <div class="section">
+    <div class="section__heading">Experience</div>
+    <div class="experience">
+      {{#each personal.experience}}
+      <div class="experience__item">
+        <div class="experience__item__title">{{this.title}}</div>
+        <div class="experience__item__name">{{this.name}}</div>
+        <div class="experience__item__date">({{this.from}} - {{this.to}})</div>
+        <div class="experience__item__description">{{this.description}}</div>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</div>
