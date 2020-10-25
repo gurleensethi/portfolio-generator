@@ -164,22 +164,48 @@ body {
 
 .experience__item__title {
   margin-bottom: 4px;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .experience__item__name {
   margin-bottom: 4px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .experience__item__date {
   margin-bottom: 8px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .experience__item__description {
-  font-size: 18px;
+  font-size: 16px;
   color: #7c7c7c;
+  text-align: justify;
+}
+
+.education__item {
+  margin-bottom: 32px;
+}
+
+.education__item__name {
+  margin-bottom: 4px;
+  font-size: 20px;
+}
+
+.education__item__course {
+  margin-bottom: 4px;
+  font-size: 16px;
+}
+
+.education__item__date {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.education__item__description {
+  font-size: 16px;
+  color: #7c7c7c;
+  text-align: justify;
 }
 
 @media only screen and (min-width: 600px) {
@@ -203,28 +229,36 @@ body {
     height: 48px;
   }
 
-  .experience__item {
-    margin-bottom: 32px;
-  }
-
   .experience__item__title {
-    margin-bottom: 4px;
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .experience__item__name {
-    margin-bottom: 4px;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .experience__item__date {
-    margin-bottom: 8px;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .experience__item__description {
     font-size: 18px;
-    color: #7c7c7c;
+  }
+
+  .education__item__name {
+    font-size: 22px;
+  }
+
+  .education__item__course {
+    font-size: 18px;
+  }
+
+  .education__item__date {
+    font-size: 18px;
+  }
+
+  .education__item__description {
+    font-size: 18px;
   }
 }
 
@@ -321,5 +355,37 @@ body {
   .skills__item__logo {
     height: 48px;
     margin-right: 24px;
+  }
+
+  .experience__item__title {
+    font-size: 24px;
+  }
+
+  .experience__item__name {
+    font-size: 20px;
+  }
+
+  .experience__item__date {
+    font-size: 20px;
+  }
+
+  .experience__item__description {
+    font-size: 18px;
+  }
+
+  .education__item__name {
+    font-size: 24px;
+  }
+
+  .education__item__course {
+    font-size: 20px;
+  }
+
+  .education__item__date {
+    font-size: 20px;
+  }
+
+  .education__item__description {
+    font-size: 18px;
   }
 }

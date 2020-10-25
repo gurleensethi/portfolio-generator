@@ -56,4 +56,17 @@
       {{/each}}
     </div>
   </div>
+  <div class="section">
+    <div class="section__heading">Education</div>
+    <div class="education">
+      {{#each personal.education}}
+      <div class="education__item">
+        <div class="education__item__name">{{this.name}}</div>
+        <div class="education__item__course">{{this.course}}</div>
+        <div class="education__item__date">({{this.from}} - {{this.to}})</div>
+        <div class="education__item__description">{{this.description}}</div>
+      </div>
+      {{/each}}
+    </div>
+  </div>
 </div>

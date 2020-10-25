@@ -90,5 +90,21 @@
       "to": "Nov 2018",
       "description": "Worked as mobile application developer responsible for migrating a native mobile application to Flutter."
     }
+  ],
+  "education": [
+    {
+      "name": "Concordia University",
+      "course": "Masters in Engineering (Software Engineering)",
+      "from": "Jan 2019",
+      "to": "Apr 2021",
+      "description": "Worked as mobile application developer responsible for migrating a native mobile application to Flutter."
+    },
+    {
+      "name": "Jaypee Institute of Information Technology",
+      "course": "Bachelor in Technology (Computer Science)",
+      "from": "Aug 2014",
+      "to": "May 2018",
+      "description": "Worked as mobile application developer responsible for migrating a native mobile application to Flutter."
+    }
   ]
 }
